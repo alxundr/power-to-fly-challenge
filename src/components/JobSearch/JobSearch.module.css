@@ -1,0 +1,19 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.jobList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
