@@ -30,8 +30,8 @@ const JobCard = (job: JobCard)  => {
                     {job.description}
                 </p>
                 <div className={styles.footer}>
-                    <button onClick={job.onApply}>Apply Now</button>
-                    <button onClick={job.onSave}>Save</button>
+                    <button onClick={job.onApply} className={styles.buttonSecondary}>Apply Now</button>
+                    <button onClick={job.onSave} className={styles.buttonPrimary}>Save</button>
                 </div>
             </div> }
         </div>
