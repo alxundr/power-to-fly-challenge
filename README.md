@@ -13,3 +13,6 @@ To execute all tests
 ```bash
 npm run test:ci
 ```
+
+## Visit the website
+The app can be visited at [here](https://power-to-fly-challenge-18tdzidod-alxundr.vercel.app/).
