@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import { useInfiniteQuery } from "@tanstack/react-query"
 
 import { Job } from "@/interfaces/job";

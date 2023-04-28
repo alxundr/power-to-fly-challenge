@@ -9,7 +9,6 @@ type JobCard = Job & {
 }
 
 const JobCard = (job: JobCard)  => {
-
     const [showDescription, setShowDescription] = useState(false)
 
     const toggleDescriptionDisplay = () => {
