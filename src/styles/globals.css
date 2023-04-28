@@ -10,7 +10,7 @@ body {
 
 button {
   font-size: 14px;
-  height: 40px;
+  height: auto;
   letter-spacing: .02em;
   line-height: 35px;
   padding: 1px 48px 2px;
@@ -20,6 +20,14 @@ button {
   cursor: pointer;
   font-weight: 400;
   text-align: center;
+}
+
+
+@media (max-width: 675px) {
+  button {
+      padding: 1rem;
+      line-height: normal;
+  }
 }
 
 input[type="text"] {

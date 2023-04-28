@@ -16,7 +16,7 @@
     flex-direction: column;
 }
 
-.description p {
+.description * {
     font-size: 0.875rem;
 }
 

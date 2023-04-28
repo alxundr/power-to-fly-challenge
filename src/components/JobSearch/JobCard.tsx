@@ -21,13 +21,12 @@ const JobCard = (job: JobCard)  => {
                 <h3>
                     {job.title}
                 </h3>
-                <p>{job.location}</p>
+                <p>Location: {job.location}</p>
             </div>
             {showDescription  &&
             <div className={styles.description}>
-                <p >
-                    {job.description}
-                </p>
+                <div dangerouslySetInnerHTML={{__html: job.description}}>
+                </div>
                 <div className={styles.footer}>
                     <button onClick={job.onApply} className={styles.buttonSecondary}>Apply Now</button>
                     <button onClick={job.onSave} className={styles.buttonPrimary}>Save</button>
